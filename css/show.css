@@ -1,9 +1,9 @@
 body{
     background-color: black;
-    margin:auto;
 }
 
 header{
+    margin:auto;
     font-family: "Amatic SC", sans-serif;
     font-size: xx-large;
     color: #D58936;
