@@ -34,7 +34,8 @@ nav{
 .hmimg{
     display:block;
     justify-content: center;
-    width:70%;
+    max-width:100%;
+    min-width: 200px;
     height:auto;
 }
 
