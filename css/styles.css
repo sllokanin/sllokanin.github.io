@@ -34,8 +34,8 @@ nav{
 .hmimg{
     display:block;
     justify-content: center;
-    object-fit: scale-down;
-    object-position: center;
+    width:200px;
+    height:auto;
 }
 
 .content-container{
@@ -66,7 +66,7 @@ footer{
     .hmimg{
         display: flex;
         justify-content: center;
-        object-fit: contain;
-        object-position: center;
+        width:100%;
+        height:auto;
     }
 }
