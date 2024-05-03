@@ -52,7 +52,6 @@ nav{
 .building{
     display:flex;
     justify-content: center;
-    max-width: 70%;
     flex-shrink: 1;
 }
 .parking{
@@ -89,6 +88,7 @@ footer{
     .building{
         display:flex;
         grid-column:2;
+        
     }
 
     .parking{
