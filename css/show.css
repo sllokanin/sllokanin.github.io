@@ -1,0 +1,427 @@
+body{
+    background-color: black;
+    margin:auto;
+}
+
+header{
+    font-family: "Amatic SC", sans-serif;
+    font-size: xx-large;
+    color: #D58936;
+    background-color: #69140E;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    margin-right: 20px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #D58936;
+}
+
+.nav-item:hover {
+    color:#69140E;
+    background-color: #D58936;
+}
+.heading{
+    color:white;
+    font-family:"Comfortaa";
+    margin:15px;
+}
+.Lineup{
+    font-family: "Comfortaa", sans-serif;
+    color:white;
+    display:grid;
+    grid-template-rows: repeat(12, .3fr 1fr);
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+}
+
+.Lineup img{
+    border-radius: 3px;
+}
+.T1{
+    grid-row:1
+}
+.T2{
+    grid-row:3
+}
+.T3{
+    grid-row:5
+}
+.T4{
+    grid-row:7
+}
+.T5{
+    grid-row:9
+}
+.T6{
+    grid-row:11
+}
+.T7{
+    grid-row:13
+}
+.T8{
+    grid-row:15
+}
+.T9{
+    grid-row:17
+}
+.T10{
+    grid-row:19
+}
+.T11{
+    grid-row:21
+}
+.T12{
+    grid-row:23
+}
+
+.fozzie{
+    grid-row: 2;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+
+.piggy{
+    grid-row:4;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+
+.rowlf{
+    grid-row:6;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.chef{
+    grid-row:8;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.gonzo{
+    grid-row:10;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.mayhem{
+    grid-row:12;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.poetry{
+    grid-row:14;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.heckler{
+    grid-row:16;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.science{
+    grid-row:18;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.roast{
+    grid-row:20;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+.willy{
+    grid-row:22;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+
+.wonka{
+    grid-row:24;
+    display:flex;
+    gap:15px;
+    margin-left:18px;
+}
+
+.ticket-1{
+    grid-row:2;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-1 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+
+.ticket-1 :focus{
+    background-color: #69140E;
+}
+
+.ticket-2{
+    grid-row:4;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-2 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-2 :focus{
+    background-color: #69140E;
+}
+
+.ticket-3{
+    grid-row:6;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-3 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-3 :focus{
+    background-color: #69140E;
+}
+
+.ticket-4{
+    grid-row:8;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-4 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-4 :focus{
+    background-color: #69140E;
+}
+
+.ticket-5{
+    grid-row:10;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-5 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-5 :focus{
+    background-color: #69140E;
+}
+
+.ticket-6{
+    grid-row:12;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-6 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-6 :focus{
+    background-color: #69140E;
+}
+
+.ticket-7{
+    grid-row:14;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-7 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-7 :focus{
+    background-color: #69140E;
+}
+
+.ticket-8{
+    grid-row:16;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-8 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-8 :focus{
+    background-color: #69140E;
+}
+
+.ticket-9{
+    grid-row:18;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-9 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-9 :focus{
+    background-color: #69140E;
+}
+
+.ticket-10{
+    grid-row:20;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-10 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-10 :focus{
+    background-color: #69140E;
+}
+
+.ticket-11{
+    grid-row:22;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-11 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-11 :focus{
+    background-color: #69140E;
+}
+
+.ticket-12{
+    grid-row:24;
+    display:flex;
+    align-items: end;
+    margin-bottom:30px;
+    margin-right: 30px;
+}
+.ticket-12 button{
+    width:110px;
+    height: 40px;
+    background-color: #D58936;
+    border-radius: 5px;
+}
+.ticket-12 :focus{
+    background-color: #69140E;
+}
+
+footer{
+    color:white;
+    background-color: #69140E;
+    padding:50px;
+}
+
+
+@media screen and (min-width: 768px){
+    .Lineup{
+        margin-left: 100px;
+    }
+    .description{
+        max-width:500px;
+    }
+    .ticket-1{
+        margin-left:245px;
+        align-self: center;
+    }
+    .ticket-2{
+        margin-left:400px;
+        align-self: center;
+    }
+    .ticket-3{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-4{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-5{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-6{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-7{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-8{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-9{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-10{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-11{
+        margin-left:200px;
+        align-self: center;
+    }
+    .ticket-12{
+        margin-left:200px;
+        align-self: center;
+    }
+}

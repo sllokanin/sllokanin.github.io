@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    margin:auto;
+    color:white;
+    font-family: "Comfortaa";
+}
+
+header{
+    font-family: "Amatic SC", sans-serif;
+    font-size: xx-large;
+    color: #D58936;
+    background-color: #69140E;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    margin-right: 20px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #D58936;
+}
+
+.nav-item:hover {
+    color:#69140E;
+    background-color: #D58936;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perks{
+    margin:25px;
+}
+.perks ul li{
+    list-style-type: none;
+    padding:5px;
+}
+
+.mem-fill{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin:50px;
+    max-width: 450px;
+}
+
+.fname{
+    grid-row: 1;
+}
+
+.lname{
+    grid-row: 1;
+}
+
+.email{
+    grid-row:2;
+}
+
+.number{
+    grid-row:3;
+}
+
+.username{
+    grid-row:4;
+}
+
+.password{
+    grid-row:5;
+
+}
+
+footer{
+    background-color:#69140E;
+    padding: 50px;
+}
+
+input[type=text], input[type=password], input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: solid 2px #D58936;
+    border-radius: 3px;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.join{
+    display: flex;
+    justify-content: center;
+}
+.join button{
+    background-color:#D58936;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color:white;
+}
+
+.join :focus{
+    background-color:#69140E;
+}
