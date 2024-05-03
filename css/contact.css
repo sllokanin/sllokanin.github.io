@@ -11,6 +11,7 @@ header{
     color: #D58936;
     background-color: #69140E;
     padding: 10px;
+    margin:auto;
 }
 
 nav{
@@ -67,6 +68,7 @@ nav{
 footer{
     background-color:#69140E;
     padding: 50px;
+    margin:auto;
 }
 
 @media screen and ( min-width: 768px) {
