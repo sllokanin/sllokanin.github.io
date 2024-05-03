@@ -88,7 +88,7 @@ footer{
     .building{
         display:flex;
         grid-column:2;
-        
+        size-adjust: 100px;
     }
 
     .parking{
