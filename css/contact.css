@@ -52,6 +52,7 @@ nav{
 .building{
     display:flex;
     justify-content: center;
+    flex-shrink: 1;
 }
 .parking{
     display:flex;
