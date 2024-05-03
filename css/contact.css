@@ -35,6 +35,7 @@ nav{
     display:flex;
     justify-content: center;
     gap: 15px;
+    max-width: 80;
 }
 
 .info{
