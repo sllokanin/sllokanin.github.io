@@ -34,8 +34,7 @@ nav{
 .hmimg{
     display:block;
     justify-content: center;
-    max-width:50%;
-    min-width: 200px;
+    width:50%;
     height:auto;
 }
 
@@ -67,8 +66,7 @@ footer{
     .hmimg{
         display: flex;
         justify-content: center;
-        max-width:50%;
-        min-width: 200px;
+        width:100%;
         height:auto;
     }
 }
