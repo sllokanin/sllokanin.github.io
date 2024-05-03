@@ -34,8 +34,8 @@ nav{
 .hmimg{
     display:flex;
     justify-content: center;
-    width:70%;
-    height:70%;
+    width:auto;
+    height:auto;
 }
 
 .content-container{
