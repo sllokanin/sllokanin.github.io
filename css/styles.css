@@ -8,10 +8,10 @@ body{
 header{
     font-family: "Amatic SC", sans-serif;
     font-size: xx-large;
-    margin:auto;
     color: #D58936;
     background-color: #69140E;
     padding: 10px;
+    margin:auto;
 }
 
 nav{
