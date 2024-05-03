@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    margin:auto;
+    margin:fill;
     color:white;
     font-family: "Comfortaa";
 }
@@ -68,7 +68,6 @@ nav{
 footer{
     background-color:#69140E;
     padding: 50px;
-    margin:auto;
 }
 
 @media screen and ( min-width: 768px) {
