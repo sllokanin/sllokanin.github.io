@@ -6,12 +6,12 @@ body{
 }
 
 header{
+    margin:auto;
     font-family: "Amatic SC", sans-serif;
     font-size: xx-large;
     color: #D58936;
     background-color: #69140E;
     padding: 10px;
-    margin:auto;
 }
 
 nav{
