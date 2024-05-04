@@ -48,7 +48,10 @@ nav{
     margin: 0;
     gap: 10px;
 }
-
+.collection{
+    display: flex;
+    flex-direction:column;
+}
 .collection img{
     border-radius: 1em;
     padding: 0.5em;
