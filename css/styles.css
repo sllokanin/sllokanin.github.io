@@ -62,10 +62,14 @@ footer{
 }
 
 @media screen and (min-width: 768px){
+    .content-container{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
     .hmimg{
         display: flex;
-        justify-content: center;
-        object-fit: fill;
+        align-items: center;
         width:100%;
         height:auto;
     }
