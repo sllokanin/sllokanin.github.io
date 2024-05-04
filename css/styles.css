@@ -40,6 +40,7 @@ nav{
 .content-container{
     margin: 10px;
 }
+
 .photo-collection{
     display: flex;
     justify-content: flex-start;
@@ -87,6 +88,10 @@ footer{
 @media screen and (min-width: 768px){
     .title{
         align-items: flex-start;
+    }
+
+    .content-container{
+        justify-content: center;
     }
     .photo-collection{
         display: flex;
