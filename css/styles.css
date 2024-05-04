@@ -40,7 +40,6 @@ nav{
 .content-container{
     margin: 10px;
 }
-
 .photo-collection{
     display: flex;
     justify-content: flex-start;
@@ -50,9 +49,6 @@ nav{
     gap: 10px;
 }
 
-.collection{
-    flex-direction: column;
-}
 .collection img{
     border-radius: 1em;
     padding: 0.5em;
@@ -63,6 +59,7 @@ nav{
     flex-grow: 2;
     align-self: center;
 }
+
 
 .content-1{
     padding: 20px;
@@ -97,15 +94,13 @@ footer{
         gap: 10px;
     }
     
+    .collection{
+        flex-direction: column;
+    }
     .collection img{
         border-radius: 1em;
         padding: 0.5em;
         max-width: 100%; 
-    }
-    
-    .hming-3{
-        flex-grow: 2;
-        align-self: center;
     }
     .content-1{
         display: flex;
