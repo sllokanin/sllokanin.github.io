@@ -367,9 +367,8 @@ footer{
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 500px){
     .Lineup{
-        margin-left:100px;
         align-items: center;
     }
     .description{
