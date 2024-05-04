@@ -91,7 +91,7 @@ footer{
     }
 
     .content-container{
-        justify-content: center;
+        margin-left: 60px;
     }
     .photo-collection{
         display: flex;
