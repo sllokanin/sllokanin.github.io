@@ -62,23 +62,30 @@ footer{
 }
 
 @media screen and (min-width: 768px){
-    .content-container{
-        display:flex;
-        flex-direction: column;
-        align-items:center;
-    }
-    .picture{
-        display: flex;
-        align-items: center;
-        width:auto;
-        height:auto;
-    }
-    .hmimg{
-        width: 100%;
-        height:auto;
-    }
     .title{
         align-items: flex-start;
+    }
+    .photo-collection{
+        display: flex;
+        justify-content: flex-start;
+        flex-grow: 1; 
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+    }
+    
+    .collection{
+        flex-direction: column;
+    }
+    .collection img{
+        border-radius: 1em;
+        padding: 0.5em;
+        max-width: 100%; 
+    }
+    
+    .hming-3{
+        flex-grow: 2;
+        align-self: center;
     }
     .content-1{
         display: flex;
