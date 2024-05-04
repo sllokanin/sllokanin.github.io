@@ -90,24 +90,20 @@ footer{
         align-items: flex-start;
     }
 
-    .content-container{
+    /* .content-container{
         display:flex;
         flex-direction: column;
         justify-content: center;
-
-    }
+    } */
     .photo-collection{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-grow: 1; 
         padding: 0;
         margin: 0;
         gap: 10px;
     }
-    
-    .collection{
-        flex-direction: column;
-    }
+
     .collection img{
         border-radius: 1em;
         padding: 0.5em;
