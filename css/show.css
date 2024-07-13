@@ -11,14 +11,14 @@ header{
     font-size: xx-large;
     color: #D58936;
     background-color: #69140E;
-    
+    padding: 10px;
 }
 
 nav{
     display: flex;
     justify-content: end;
     gap: 35px;
-    margin-right: 20px;
+    
 }
 
 .nav-item{
