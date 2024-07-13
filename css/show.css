@@ -1,12 +1,11 @@
 body{
     background-color: black;
     margin:auto;
-    color:white;
+    color: white;
     font-family: "Comfortaa", sans-serif;
 }
 
 header{
-    margin:auto;
     font-family: "Amatic SC", sans-serif;
     font-size: xx-large;
     color: #D58936;
@@ -30,6 +29,7 @@ nav{
     color:#69140E;
     background-color: #D58936;
 }
+
 .heading{
     color:white;
     font-family:"Comfortaa";
